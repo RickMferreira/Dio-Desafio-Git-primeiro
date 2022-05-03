@@ -1,6 +1,5 @@
 # Dio-Desafio-Git-primeiro
-Desafio projeto GIT/GITHUB
-git commit
+Repositorio criado para o desafio de projeto
 
 ## Links Úteis
 [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
