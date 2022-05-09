@@ -1,0 +1,320 @@
+</*tem que ter no site os 3 requisitos : Transition ,Animation ,SVG.*/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<title> Formulario </title>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="estilohtml.css" rel="stylesheet" type="text/css" />
+	<link href="css.css" rel="stylesheet" type="text/css" />
+	<style>
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+h1{
+	text-align:justify;
+	}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.footer{
+	background-color:black;
+	height:100px;
+	width:100px;
+	}
+
+	.svg 	{
+		position:fixed;
+		
+		}
+</style>
+</head>
+<body>
+
+
+<div id="mymenu" class="menu">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  
+          <a href="curso.html"target="_blank">Cursos</a>
+			<a href="login.html"target="_blank">Login</a>
+            <a href="cadastro.html" target="_blank">Cadastro</a>
+        
+</div>
+
+
+
+<body>
+<center>
+			
+</center>
+<div class="imagem">
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+   <center> <svg height="100" width="50">;
+  <img src= "banner.png" width="75%" height="10%">
+</svg></center><br>
+<center><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</center></span><br>
+
+<center>
+  <font size="1" face="Verdana, Arial, Helvetica, sans-serif">
+
+<div class="caixa">
+  <font color="Black" font face="calibri" size="6">Formulário</font></font>
+<br>
+<br>
+<br>
+<br>	
+   <font face="verdana" size="2">
+   <font color="Black" size="5">Preencha o Formulário de Sugestões de Melhorias da Etec - Americana <font face="Verdana, Arial, Helvetica, sans-serif">
+<br>
+<br>
+<br>
+<br>
+  </font></font></font>
+</center>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</font>
+<div class="form">
+<form method="post" action="cadform.php" id="form" name="form">
+<div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+<div class="nome">
+<form method="post" action="sessao.php" id="nomelogin" name="nomelogin">
+<div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+<center>
+
+<h1><center>Nome:
+    <input type="text" name="nome" size="34" placeholder = "Digite Seu Nome"  style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;">
+<br>
+<br>
+<br>
+<br></center>
+</h1></div></form>
+<div class="E-mail">
+<h1><center>E-mail:
+    <input type="text" name="email" size="34" placeholder = "Digite Seu E-mail" style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;">
+<br>
+<br>
+<br>
+<br></center>
+</div><h1>
+
+<div class="CPF">
+ <h1> <center> CPF:
+    <input type="text" name="CPF" size="36" placeholder = "Digite Seu CPF" style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;">
+<br>
+<br><br>
+<br>
+<br></center>
+</h1></div>
+
+<div class="assunto">
+<h1><center>Assunto:
+    <input type="text" name="assunto" placeholder = "Digite o Assunto " style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;"></input>
+
+	Sobre:
+
+<select name="f_Sobre" input type="text" name="assunto "style="border-style:solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA; border-width: 1px;">
+
+
+<option value =" " > </option>
+<option value ="lab">Laboratorios</option>
+<option value ="Dir">Direcao</option>
+<option value ="Prof">Professores</option>
+<option value ="graf">Grafica</option>
+<option value ="cur">Cursos</option>
+	
+</center>
+</div></select></h1>
+<br>
+<br>
+<br>
+
+ <center><div class="Mensagem">
+<h1>	<center>Mensagem:
+<center><textarea name="Mensagem" maxlength="1000" placeholder = "Deixe sua Mensagem de Sugestoes ou Melhorias para nossa Escola !!!" cols="34" rows="4" style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;"></textarea>
+</h1></center>
+	<p><center>(max 1000 caracter)</center></p>
+<br>
+<br> 
+<br></center>
+<br>      
+ </div></font>
+ 
+  <div align="center">
+          <font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+    <input class="form_botao" type="submit" name="Enviar" value="Enviar Mensagem" style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;">
+          
+    <input class="form_botao" type="reset" name="Limpar" value="Limpar" style="border-style: solid; font-face: verdana;font-size: 12;color: black;background-color: white;border-color: #357CCA;border-width: 1px;">
+    </font>
+</form>
+</div>
+<center>
+<br>
+<br>
+<br>
+
+Obrigado por ajudar a melhorar o ensino e administração de nossa escola!!!
+
+<br><br>
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function openNav() {
+    document.getElementById("mymenu").style.width = "250px";
+    document.getElementById("texto").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mymenu").style.width = "0";
+    document.getElementById("texto").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+
+
+</script>
+
+  <div style="font-size: 0.8em; text-align: center; margin-top: 1em; margin-bottom: 1em;">
+<p><center>Site Desenvolvido por Ricardo Moraes.<br></a> <br>
+<a href="https://outlook.live.com" target="_blank">  Outlook ,  <a href="https://gmail.com" target="_blank">  Gmail</center></p></a>
+</div>
+</center>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html> 
